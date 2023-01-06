@@ -19,6 +19,9 @@ li {
 img {
     max-width: 100%;
 }
+button{
+    cursor: pointer;
+}
 
 .btn-primary {
     background: #F15B22;
@@ -30,11 +33,12 @@ img {
 }
 
 .btn-secondary {
+    border: none;
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
     padding: 10px 20px;
-    color: #F15B22;
+    color: rgb(183, 0, 255);
 }
 
 .description {
@@ -124,6 +128,22 @@ img {
     margin-top: 15px;
 }
 /* Plans Section CSS END */
+
+/* CTA Section CSS START */
+.cta{
+    /* background: #F15B22; */
+    background: linear-gradient(to right, rgb(183, 0, 255), rgb(0,0,0, 0)), url(../image/watch.png) no-repeat center center;
+    background-size: cover;
+    padding: 100px 50px;
+    text-align: left;
+    border-radius: 10px;
+    color: #fff;
+}
+.cta .title{
+    width: 40%;
+}
+
+/* CTA Section CSS END */
 
 /* Footer Section CSS START */
 /* Footer Section CSS END */
