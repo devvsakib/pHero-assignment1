@@ -140,9 +140,48 @@ button {
 
 /* Plans Section CSS END */
 
+/* Team Section CSS START */
+.team{
+    text-align: center;
+}
+.team-member{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.member{
+    width: 250px;
+    box-shadow: 0 0 10px rgb(183, 0, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+.team-image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px #bbbbbb;
+}
+.position{
+    font-size: 14px;
+}
+.member .social-links{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+/* Team Section CSS END */
+
 /* CTA Section CSS START */
 .cta {
-    /* background: #F15B22; */
     background: linear-gradient(to right, rgb(183, 0, 255), rgb(0, 0, 0, 0)), url(../image/watch.png) no-repeat center center;
     background-size: cover;
     padding: 100px 50px;
