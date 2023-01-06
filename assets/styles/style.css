@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-secondary {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #F15B22;
+}
+.description{
+    font-size: 14px;
+    color: #F15B22;
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+/* Banner Section CSS START */
+.banner{
+    background: url(../image/banner/banner1.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+.banner .container{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+.banner-content{
+    width: 40%;
+    padding: 0 50px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Banner Section CSS END */
+/* Feature Section CSS START */
+/* Feature Section CSS END */
+/* Plans Section CSS START */
+/* Plans Section CSS END */
+/* Footer Section CSS START */
+/* Footer Section CSS END */
