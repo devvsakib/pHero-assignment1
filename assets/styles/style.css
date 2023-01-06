@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #b700ff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-secondary {
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #b700ff;
+}
+
+.description {
+    font-size: 14px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 150px auto;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Banner Section CSS START */
+.banner {
+    background: url(../image/banner/banner1.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.banner .container {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.banner-content {
+    width: 40%;
+    padding: 0 50px;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Banner Section CSS END */
+
+/* Feature Section CSS START */
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-content-left {
+    width: 50%;
+}
+
+.feature-content-right {
+    width: 50%;
+    padding: 0 100px;
+}
+
+.feature-content-right ul {
+    margin-top: 30px;
+}
+
+.feature-content-right ul li {
+    margin-bottom: 20px;
+    color: #444343;
+}
+
+.feature-content-right ul li i {
+    margin-right: 10px;
+    color: rgb(183, 0, 255);
+}
+
+/* Feature Section CSS END */
+
+/* Plans Section CSS START */
+.plan-content {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.plan-cards {
+    margin-top: 60px;
+    display: flex;
+}
+
+.plan-description {
+    font-size: 15px;
+    padding: 0 10px;
+    color: #444343;
+    margin-top: 15px;
+}
+
+/* Plans Section CSS END */
+
+/* Team Section CSS START */
+.team{
+    text-align: center;
+}
+.team-member{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.member{
+    width: 250px;
+    box-shadow: 0 0 10px rgb(183, 0, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+.team-image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px #bbbbbb;
+}
+.position{
+    font-size: 14px;
+}
+.member .social-links{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+/* Team Section CSS END */
+
+/* CTA Section CSS START */
+.cta {
+    background: linear-gradient(to right, rgb(183, 0, 255), rgb(0, 0, 0, 0)), url(../image/watch.png) no-repeat center center;
+    background-size: cover;
+    padding: 100px 50px;
+    text-align: left;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cta .title {
+    width: 40%;
+}
+
+/* CTA Section CSS END */
+
+/* Footer Section CSS START */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: ; */
+    padding: 70px 0;
+    margin: 0 auto;
+}
+
+footer .description {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.phone {
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 40px;
+}
+
+.social-links li {
+    margin-right: 20px;
+}
+
+.social-links li img {
+    width: 30px;
+}
+
+.footer-content-right {
+    width: 50%;
+    padding: 0 100px;
+}
+
+.footer-content-right h2 {
+    font-size: 25px;
+}
+
+.email {
+    border: 1px solid rgb(183, 0, 255);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    margin: 20px 0;
+    outline: none;
+}
+
+/* Footer Section CSS END */
