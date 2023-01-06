@@ -19,12 +19,13 @@ li {
 img {
     max-width: 100%;
 }
-button{
+
+button {
     cursor: pointer;
 }
 
 .btn-primary {
-    background: #F15B22;
+    background: #b700ff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -38,7 +39,7 @@ button{
     font-weight: 500;
     border-radius: 5px;
     padding: 10px 20px;
-    color: rgb(183, 0, 255);
+    color: #b700ff;
 }
 
 .description {
@@ -51,7 +52,8 @@ button{
     max-width: 80vw;
     margin: 150px auto;
 }
-.title{
+
+.title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -92,58 +94,124 @@ button{
     justify-content: space-between;
     align-items: center;
 }
-.feature-content-left{
+
+.feature-content-left {
     width: 50%;
 }
-.feature-content-right{
+
+.feature-content-right {
     width: 50%;
     padding: 0 100px;
 }
-.feature-content-right ul{
+
+.feature-content-right ul {
     margin-top: 30px;
 }
-.feature-content-right ul li{
+
+.feature-content-right ul li {
     margin-bottom: 20px;
     color: #444343;
 }
-.feature-content-right ul li i{
+
+.feature-content-right ul li i {
     margin-right: 10px;
     color: rgb(183, 0, 255);
 }
+
 /* Feature Section CSS END */
 
 /* Plans Section CSS START */
-.plan-content{
+.plan-content {
     margin: 100px auto;
     text-align: center;
 }
-.plan-cards{
+
+.plan-cards {
     margin-top: 60px;
     display: flex;
 }
-.plan-description{
+
+.plan-description {
     font-size: 15px;
     padding: 0 10px;
     color: #444343;
     margin-top: 15px;
 }
+
 /* Plans Section CSS END */
 
 /* CTA Section CSS START */
-.cta{
+.cta {
     /* background: #F15B22; */
-    background: linear-gradient(to right, rgb(183, 0, 255), rgb(0,0,0, 0)), url(../image/watch.png) no-repeat center center;
+    background: linear-gradient(to right, rgb(183, 0, 255), rgb(0, 0, 0, 0)), url(../image/watch.png) no-repeat center center;
     background-size: cover;
     padding: 100px 50px;
     text-align: left;
     border-radius: 10px;
     color: #fff;
 }
-.cta .title{
+
+.cta .title {
     width: 40%;
 }
 
 /* CTA Section CSS END */
 
 /* Footer Section CSS START */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: ; */
+    padding: 70px 0;
+    margin: 0 auto;
+}
+
+footer .description {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.phone {
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 40px;
+}
+
+.social-links li {
+    margin-right: 20px;
+}
+
+.social-links li img {
+    width: 30px;
+}
+
+.footer-content-right {
+    width: 50%;
+    padding: 0 100px;
+}
+
+.footer-content-right h2 {
+    font-size: 25px;
+}
+
+.email {
+    border: 1px solid rgb(183, 0, 255);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    margin: 20px 0;
+    outline: none;
+}
+
 /* Footer Section CSS END */
