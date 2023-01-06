@@ -109,6 +109,20 @@ img {
 /* Feature Section CSS END */
 
 /* Plans Section CSS START */
+.plan-content{
+    margin: 100px auto;
+    text-align: center;
+}
+.plan-cards{
+    margin-top: 60px;
+    display: flex;
+}
+.plan-description{
+    font-size: 15px;
+    padding: 0 10px;
+    color: #444343;
+    margin-top: 15px;
+}
 /* Plans Section CSS END */
 
 /* Footer Section CSS START */
