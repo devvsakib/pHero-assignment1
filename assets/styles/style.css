@@ -131,14 +131,6 @@ button {
     display: flex;
 }
 
-.plan-card{
-    width: 30%;
-    margin: 0 10px;
-    border: 1px solid rgb(183, 0, 255);
-    box-shadow: 0 0 10px #bbbbbb;
-    border-radius: 5px;
-    padding: 20px;
-}
 .plan-description {
     font-size: 15px;
     padding: 0 10px;
@@ -157,6 +149,13 @@ button {
     justify-content: space-between;
     text-align: left;
     margin-top: 60px;
+}
+
+.member{
+    width: 250px;
+    box-shadow: 0 0 10px rgb(183, 0, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
 }
 .team-image{
     width: 200px;
