@@ -36,17 +36,25 @@ img {
     padding: 10px 20px;
     color: #F15B22;
 }
-.description{
+
+.description {
     font-size: 14px;
-    color: #F15B22;
+    color: #444343;
     margin-bottom: 20px;
 }
-.container{
+
+.container {
     max-width: 80vw;
-    margin: 0 auto;
+    margin: 150px auto;
 }
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 /* Banner Section CSS START */
-.banner{
+.banner {
     background: url(../image/banner/banner1.png) no-repeat center center;
     background-size: cover;
     height: 100vh;
@@ -54,29 +62,54 @@ img {
     display: flex;
     align-items: center;
 }
-.banner .container{
+
+.banner .container {
     width: 90%;
     display: flex;
     justify-content: end;
 }
-.banner-content{
+
+.banner-content {
     width: 40%;
     padding: 0 50px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-
-
-
-
 /* Banner Section CSS END */
+
 /* Feature Section CSS START */
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-content-left{
+    width: 50%;
+}
+.feature-content-right{
+    width: 50%;
+    padding: 0 100px;
+}
+.feature-content-right ul{
+    margin-top: 30px;
+}
+.feature-content-right ul li{
+    margin-bottom: 20px;
+    color: #444343;
+}
+.feature-content-right ul li i{
+    margin-right: 10px;
+    color: rgb(183, 0, 255);
+}
 /* Feature Section CSS END */
+
 /* Plans Section CSS START */
 /* Plans Section CSS END */
+
 /* Footer Section CSS START */
 /* Footer Section CSS END */
